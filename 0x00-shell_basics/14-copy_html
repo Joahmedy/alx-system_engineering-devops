@@ -1,2 +1,2 @@
-14-copy_html
-cp -u *.html..
+#!/bin/bash
+rsync -av --ignore-existing --update --include='*.html' --exclude='*' ./ ../

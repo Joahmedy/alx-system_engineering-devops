@@ -1,2 +1,2 @@
 #!/bin/bash
-rm * -typef  .js
+rm * -type f .jc 

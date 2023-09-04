@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindepth 2 -type f -exec grep -l "hello" {} ;
+find . -type d ! -path . -print | wc -l 
